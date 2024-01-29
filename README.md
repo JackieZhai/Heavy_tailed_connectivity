@@ -3,15 +3,17 @@ Code and data used to perform the analyses in the paper "Heavy-tailed neuronal c
 
 The neuronal connectomes are included in the following files:
 
-(i) Drosophila_central brain.csv.zip (note that this file must be unzipped): the Drosophila central brain published in Scheffer, L. K. et al. "A connectome and analysis of the adult Drosophila central brain", Elife (2020);
+(i) Drosophila_central_brain.csv.zip (note that this file must be unzipped): the Drosophila central brain published in Scheffer, L. K. et al. "A connectome and analysis of the adult Drosophila central brain", Elife (2020);
 
 (ii) Drosophila_optic_medulla.csv: the Drosophila optic medulla published in Takemura, S. et al. "A visual motion detection circuit suggested by Drosophila connectomics", Nature (2013);
 
 (iii) Celegans.csv: the C. elegans connectome published in Varshney, L. R., Chen, B. L., Paniagua, E., Hall, D. H. & Chklovskii, D. B. "Structural properties of the Caenorhabditis elegans neuronal network", PLoS Comput. Biol. (2011);
 
-(iv) Platynereis_sensory_motor.csv: the Platynereis sensory-motor circuit published in Randel, N. et al. "Neuronal connectome of a sensory-motor circuit for visual navigation", Elife (2014); and
+(iv) Platynereis_sensory_motor.csv: the Platynereis sensory-motor circuit published in Randel, N. et al. "Neuronal connectome of a sensory-motor circuit for visual navigation", Elife (2014);
 
-(v) Mouse_retina.csv: the mouse retina published in Helmstaedter, M. et al. "Connectomic reconstruction of the inner plexiform layer in the mouse retina", Nature (2013).
+(v) Mouse_retina.csv: the mouse retina published in Helmstaedter, M. et al. "Connectomic reconstruction of the inner plexiform layer in the mouse retina", Nature (2013);
+
+(vi) Drosophila_whole_brain.csv.zip (note that this file must be unzipped): the whole adult Drosophila brain published in Zheng, Z. et al. "A complete electron microscopy volume of the brain of adult Drosophila melanogaster", Cell (2018); and Dorkenwald, S. et al. "Neuronal wiring diagram of an adult brain", bioRxiv (2023).
 
 For each connectome, each row corresponds to an individual synapse (or contact for the mouse retina), with the first, second, and third columns representing the presynaptic neuron, postsynaptic neuron, and synaptic strength, respectively. Note that the synaptic strengths are 1 for all connectomes other than the mouse retina (where the synaptic strengths have units of squared microns).
 
